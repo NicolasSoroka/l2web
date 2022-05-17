@@ -13,7 +13,7 @@ const VideoSeparator = () => {
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
         <p>Todas las clases son útiles</p>
-        <h2>La mejor party es la mas completa</h2>
+        <h2>La mejor party, la mas completa</h2>
         <motion.h3
           onClick={() => router.push('#')}
           whileHover={{
