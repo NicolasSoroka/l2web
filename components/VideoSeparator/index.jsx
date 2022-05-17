@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './VideoSeparator.module.css';
 import { useRouter } from "next/router";
+import { motion } from "framer-motion"
 
 const VideoSeparator = () => {
   const router = useRouter()
@@ -12,7 +13,15 @@ const VideoSeparator = () => {
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
         <p>Todas las clases son útiles</p>
-        <h2 onClick={() => router.push('#')}>Ver detalles</h2>
+        <h2>La mejor party es la mas completa</h2>
+        <motion.h3
+          onClick={() => router.push('#')}
+          whileHover={{
+            scale: 1.1,
+            transition: { duration: .2 },
+          }}>
+          Ver detalles
+        </motion.h3>
       </div>
       <a id="pvp"></a>
     </div>

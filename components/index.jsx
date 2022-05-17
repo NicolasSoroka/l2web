@@ -6,3 +6,4 @@ export { default as FloatingFigures } from "./FloatingFigures";
 export { default as FloatingNav } from "./FloatingNav";
 export { default as AppHead } from "./AppHead";
 export { default as VideoSeparator } from "./VideoSeparator";
+export { default as Tooltip } from "./Tooltip";
